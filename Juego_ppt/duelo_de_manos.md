@@ -41,3 +41,4 @@ user 1 ha ganado el juego!
 # Requisitos
 	•	Python 3.x
 	•	Biblioteca random (incluida en la librería estándar de Python)
+    

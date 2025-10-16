@@ -101,7 +101,7 @@ def jugar_capitalisimo():
     elif puntuacion <= 3:
         print(f"\nHas perdido con {puntuacion} puntos.\nEl mundo no es lo tuyo, aunque perder también tiene recompensa:".upper())
         print("\n¡HAS SIDO ELEGIDA PARA SER EXPULSADA DEL PLANETA!\n\nESTAMOS PREPARÁNDOTE UNA BURRA PARA QUE NO TE FALTE DE NADA AL ABANDONAR LA TIERRA.\n\nPronto recibirás la fecha.")
-        print("\n\nRecuerda revisar tu carpeta de spam.")
+        print("\n***Recuerda revisar tu carpeta de spam***.")
     else:
         print(f'Ni has perdido ni has ganado, tienes {puntuacion} puntos. La mediocridad no es mala: al final son solo capitales'.upper())
 

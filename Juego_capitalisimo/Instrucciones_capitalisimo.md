@@ -2,7 +2,7 @@
 
 Este juego te pone a prueba sobre tu conocimiento de países y capitales del mundo.
 ## 🎮 Cómo Jugar
-1.	Inicio: Al ejecutar el programa, se te preguntará: "¿Estás preparado/a?"
+1.	Inicio: Al ejecutar el programa, se te preguntará: "¿Te ves?"
 o	Si la respuesta es ‘SI’, el juego comienza.
 o	Si la respuesta es NO (o no), el juego se cierra con un mensaje de despedida.
 2.	Rondas: Jugarás un total de 10 rondas si tu puntuación te lo permite.

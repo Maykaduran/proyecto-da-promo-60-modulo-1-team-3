@@ -57,7 +57,7 @@ def jugar_capitalisimo():
         input("Pulsa Enter para salir...")  # Pausa antes de salir
         return
 
-    while ronda_actual <= max_rondas and puntuacion > 0:  # Corregido: ahora verifica puntuacion > 0
+    while ronda_actual <= max_rondas:  
         print(f"\n Ronda {ronda_actual} de {max_rondas} ")
         paises_disponibles = [pais for pais in capitalisimo_paises.keys() if pais not in paises_usados]
         if not paises_disponibles:

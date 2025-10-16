@@ -26,9 +26,9 @@ def jugar_capitalisimo():
 
     input("Presiona Enter para empezar el juego...\n")  # Pausa inicial
 
-    print("=" * 60)
+    print("=" * 120)
     print(f"\n    SI ESTÁS LEYENDO ESTO, HAS SIDO SELECCIONADA PARA UNA OPORTUNIDAD ÚNICA, SOLO SABRÁS CUÁL ES AL FINAL DE ESTE JUEGO:\n\nVas a recibir un cuestionario con preguntas sobre este mundo, en esta ocasión querremos saber cuánto sabes de países y capitales.\n\nComienzas con {puntuacion} puntos. El máximo de rondas es: {max_rondas} rondas.\n")
-    print("=" * 60)
+    print("=" * 120)
 
     usuario = input('¿Te ves preparada? (SI/NO): ').strip().lower()
     if usuario != 'si':
@@ -91,9 +91,9 @@ def jugar_capitalisimo():
         input("Pulsa Enter para continuar...")  # Pausa después de cada ronda
         ronda_actual += 1
 
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 120)
     print(f"Hasta aquí nuestro cuestionario\n\nTu puntuación final es: {puntuacion}")
-    print("\n" + "=" * 60)
+    print("\n" + "=" * 120)
 
     if puntuacion >= 8:
         print(f"\nENHORABUENA: Has ganado con {puntuacion} puntos\n".upper())
